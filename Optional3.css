@@ -36,6 +36,6 @@
 .btn:hover{
     transform: scale(1.1);
     background-color: antiquewhite;
-    transition: 200ms;
+    transition: 300ms;
     cursor: pointer;
 }

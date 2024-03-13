@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.color{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.info{
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.copy{
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 10px;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+    background-color: wheat;
+    font-size: 1.1rem;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: antiquewhite;
+    transition: 200ms;
+    cursor: pointer;
+}
